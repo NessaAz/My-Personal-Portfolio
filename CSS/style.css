@@ -1,0 +1,11 @@
+.body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.main-content, img {
+    width: 100%;
+    position: absolute;
+    display: block;
+    margin: 0;
+}
