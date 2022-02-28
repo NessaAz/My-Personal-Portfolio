@@ -4,15 +4,16 @@
 }
 
 .main-content, img {
-    width: 70%;
-    position: absolute;
-    display: inline-block;
-    margin: 0;
+    width: 30%;
+    height:max-content;
+    position:calc(80);
+    display: block;
+    margin: 100;
 }
 .main-heading {
-    text-align: top;
+    text-align: middle;
     font-family: monospace;
-    font-size: 70px;
+    font-size: 55px;
     position: relative;
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -26,8 +27,24 @@
     background-color: rgb(205, 50, 166);
   }
   .column {
-    width: 220px;
+    width: 250px;
     float: left;
-    padding: 15px;
+    padding: 10px;
   }
+}
+.biography, button{
+    position: absolute;
+    top: 18px;
+    right: 21px;
+    padding: 10px;
+    font-size: 16px; 
+    background-color: transparent;
+    font-weight: bold;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: rgb(219, 207, 207);
+}
+.biography:hover{
+    color: rgb(184, 137, 137);
+    border-color: white;
 }
